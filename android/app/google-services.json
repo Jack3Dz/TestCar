@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "491074202597",
+    "firebase_url": "https://testcar-579d3.firebaseio.com",
+    "project_id": "testcar-579d3",
+    "storage_bucket": "testcar-579d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491074202597:android:d343080546897697",
+        "android_client_info": {
+          "package_name": "com.unisul.testcar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491074202597-20hcssbuglhr7qnondtjjjq61u5ro5kj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqOmXJSBSzBSjIzHwCDNfVzoCUVuqn0QE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
