@@ -12,6 +12,7 @@ import firebase from 'react-native-firebase'
 import styles from '../styles.js'
 import ListItem from '../components/ListItem.js';
 import FloatingActionButton from 'react-native-action-button';
+import FormCarro from './FormCarro';
 export default class Main extends React.Component {
   constructor(props) {
     super(props);
@@ -56,7 +57,7 @@ export default class Main extends React.Component {
         <FloatingActionButton
           hideShadow={true}
           buttonColor="rgba(231,76,60,1)"
-          onPress={this._addTask.bind(this)} />
+          onPress={() => this.props.navigation.navigate('FormCarro')} />
       </View>
     );
   }
