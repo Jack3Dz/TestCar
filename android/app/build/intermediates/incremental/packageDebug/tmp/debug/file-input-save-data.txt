@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jun 26 23:02:07 GMT-03:00 2018
+#Tue Jun 26 23:12:41 GMT-03:00 2018
 17.baseType=DIRECTORY
 4.path=lib/x86/libicu_common.so
 25.base=C\:\\Development\\TestCar\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
