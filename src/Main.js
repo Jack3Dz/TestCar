@@ -15,7 +15,7 @@ import FloatingActionButton from 'react-native-action-button';
 export default class Main extends React.Component {
   constructor(props) {
     super(props);
-    this.tasksRef = firebase.database().ref();
+    this.tasksRef = firebase.database().ref('/list');
     // Each list must has a dataSource, to set that data for it you must call: cloneWithRows()
     // Check out the docs on the React Native List View here:
     // https://facebook.github.io/react-native/docs/listview.html
@@ -38,7 +38,7 @@ export default class Main extends React.Component {
       <View style={styles.container}>
         <ToolbarAndroid
           style={styles.navbar}
-          title="Todo List" />
+          title="Lista de Carros" />
         {/*A list view with our dataSource and a method to render each row*/}
         {/*Allows lists to be empty, can be removed in future versions of react*/}
         <ListView
@@ -50,7 +50,7 @@ export default class Main extends React.Component {
           value={this.state.newTask}
           style={styles.textEdit}
           onChangeText={(text) => this.setState({ newTask: text })}
-          placeholder="New Task"
+          placeholder="Novo Carro"
         />
         {/*The library has a bug so I removing the shadow to avoid it*/}
         <FloatingActionButton
@@ -76,7 +76,7 @@ export default class Main extends React.Component {
     if (this.state.newTask === "") {
       return;
     }
-    this.tasksRef.push({ name: this.state.newTask });
+    this.tasksRef.push({ nome: this.state.newTask });
     this.setState({ newTask: "" });
   }
 
@@ -85,17 +85,18 @@ export default class Main extends React.Component {
     // dataSnapshot from firebase
     tasksRef.on('value', (dataSnapshot) => {
       // transform the children to an array
-      var tasks = [];
+      var list = [];
       dataSnapshot.forEach((child) => {
-        tasks.push({
-          name: child.val().name,
+        list.push({
+          nome: child.val().nome,
+          preco: child.val().preco,
           _key: child.key
         });
       });
 
       // Update the state with the new tasks
       this.setState({
-        dataSource: this.state.dataSource.cloneWithRows(tasks)
+        dataSource: this.state.dataSource.cloneWithRows(list)
       });
     });
   }
