@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Button } from 'react-native';
+import firebase from 'react-native-firebase'
 
 import t from 'tcomb-form-native'; // 0.6.9
 
 const Form = t.form.Form;
 
-const User = t.struct({
-  email: t.String,
-  username: t.maybe(t.String),
-  password: t.String,
-  terms: t.Boolean
+const Veiculo = t.struct({
+  nome: t.String,
+  preco: t.maybe(t.String),
+  haveABS: t.Boolean,
+  haveAIR: t.Boolean,
+  haveMP3: t.Boolean,
 });
 
 const formStyles = {
@@ -21,7 +23,6 @@ const formStyles = {
   },
   controlLabel: {
     normal: {
-      color: 'blue',
       fontSize: 18,
       marginBottom: 7,
       fontWeight: '600'
@@ -37,24 +38,56 @@ const formStyles = {
 }
 
 const options = {
+  
   fields: {
-    email: {
-      error: 'Without an email address how are you going to reset your password when you forget it?'
+    nome: {
+      auto: 'none',
+      placeholder: 'Nome',
+      error: 'Sem um nome, não é possível cadastrar um veículo!'
     },
-    password: {
-      error: 'Choose something you use on a dozen other sites or something you won\'t remember'
+    preco: {
+      auto: 'none',
+      placeholder: 'Preço',
+      error: 'Sem um nome, não é possível cadastrar um veículo!'
     },
-    terms: {
-      label: 'Agree to Terms',
+    haveABS: {
+      auto: 'none',
+      placeholder: 'Possui ABS',
+      label: 'Possúi ABS: ',
+    },
+    haveAIR: {
+      auto: 'none',
+      placeholder: 'Possui Ar Condicionado',
+      label: 'Possúi Ar Condicionado: ',
+    },
+    haveMP3: {
+      auto: 'none',
+      placeholder: 'Possui MP3',
+      label: 'Possúi MP3: ',
     },
   },
   stylesheet: formStyles,
 };
 
-export class FormCarro extends React.Component {
+export default class FormCarro extends React.Component {
   handleSubmit = () => {
     const value = this._form.getValue();
     console.log('value: ', value);
+
+    firebase.database().ref('list/11').set({
+      nome: value.nome,
+      preco: value.preco,
+      haveABS: value.haveABS,
+      haveAIR: value.haveAIR,
+      haveMP3: value.haveMP3,
+    });
+    this.clearForm();
+    this.props.navigation.navigate('Main');
+  }
+  
+  clearForm() {
+    // clear content from all textbox
+    this.setState({ value: null });
   }
   
   render() {
@@ -62,11 +95,11 @@ export class FormCarro extends React.Component {
       <View style={styles.container}>
         <Form 
           ref={c => this._form = c}
-          type={User} 
+          type={Veiculo} 
           options={options}
         />
         <Button
-          title="Sign Up!"
+          title="Cadastrar Veículo"
           onPress={this.handleSubmit}
         />
       </View>

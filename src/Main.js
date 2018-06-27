@@ -39,7 +39,8 @@ export default class Main extends React.Component {
       <View style={styles.container}>
         <ToolbarAndroid
           style={styles.navbar}
-          title="Lista de Carros" />
+          title="Veículos"> 
+        </ToolbarAndroid>
         {/*A list view with our dataSource and a method to render each row*/}
         {/*Allows lists to be empty, can be removed in future versions of react*/}
         <ListView
@@ -47,12 +48,12 @@ export default class Main extends React.Component {
           enableEmptySections={true}
           renderRow={this._renderItem.bind(this)}
           style={styles.listView} />
-        <TextInput
+        {/* <TextInput
           value={this.state.newTask}
           style={styles.textEdit}
           onChangeText={(text) => this.setState({ newTask: text })}
           placeholder="Novo Carro"
-        />
+        /> */}
         {/*The library has a bug so I removing the shadow to avoid it*/}
         <FloatingActionButton
           hideShadow={true}

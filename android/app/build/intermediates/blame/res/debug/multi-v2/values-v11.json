@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\TestCar\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "C:\\Development\\TestCar\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Jefferson\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-15.0.2.aar\\99305c229282a64774a0daad53825d81\\res\\values-v11\\values.xml",
+                    "source": "G:\\Users\\Jeff\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-15.0.2.aar\\c925f040e66e985107e38f7496310f2f\\res\\values-v11\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Jefferson\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\19fcad0409e553347637650a74c4096d\\res\\values-v11\\values-v11.xml",
+                    "source": "G:\\Users\\Jeff\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2bbf04c45a5148ac2e8e56710bf0cd65\\res\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2,8,14,20,26,32,38,39,43,47,48,52,56,57,61,66,71,76,78,80,81,82,136,191",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
