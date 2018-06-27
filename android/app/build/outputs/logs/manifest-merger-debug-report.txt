@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:1:1-38:12
-INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:1:1-38:12
-INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:1:1-38:12
-INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:1:1-38:12
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:1:1-38:12
 MERGED from [com.android.support:multidex:1.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\2c8094a8c787f51237733b95cf7e108f\AndroidManifest.xml:17:1-22:12
-MERGED from [:react-native-firebase] C:\Development\react-native-firebase-starter\node_modules\react-native-firebase\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-firebase] C:\Development\TestCar\node_modules\react-native-firebase\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-firestore:16.0.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-firestore-16.0.0.aar\6c17852184e1ce8c71ba1bf8da5bf234\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-messaging:15.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-messaging-15.0.2.aar\40d32a6578452608b85d1264477ec8b5\AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-core:15.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-core-15.0.2.aar\f641df5809f098bee2ccacb50ecd4b8a\AndroidManifest.xml:2:1-9:12
@@ -31,7 +31,7 @@ MERGED from [com.google.firebase:firebase-iid:15.1.0] G:\Users\Jeff\.gradle\cach
 MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-15.0.0.aar\8bff0a8686ab3f753b944ca0408355da\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:15.0.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\d1721a50b5b8a4ba378bc82bf153838b\AndroidManifest.xml:17:1-29:12
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\4409c5dc21adbfe4aca34838bbf133c8\AndroidManifest.xml:2:1-19:12
-MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\d29bcb61b3be796392508e129e4d775a\AndroidManifest.xml:2:1-15:12
+MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\46452d2f26b10e4a1ed963b78668606c\AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:27.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\2bbf04c45a5148ac2e8e56710bf0cd65\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads:15.0.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\7e9e092d37bb5ce802a22f1f917a871f\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.firebase:firebase-common:15.0.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-common-15.0.1.aar\94e1c63f6b0a630c6ad20c5d8c936eda\AndroidManifest.xml:2:1-15:12
@@ -70,27 +70,27 @@ MERGED from [com.facebook.fresco:drawee:1.3.0] G:\Users\Jeff\.gradle\caches\tran
 MERGED from [com.facebook.fresco:imagepipeline:1.3.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\a49979b9964f8ec364dea1bc76b1f24b\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\129ee70f5f03386c52fc32b3b17cd673\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fbcore:1.3.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\8d6d7e4292e22af0f845a16eaa4ede10\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:1:1-38:12
-INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:1:1-38:12
-INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:1:1-38:12
 	package
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:2:5-33
-		INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:2:5-33
+		INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:4:5-30
-		INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:1:11-69
 	android:versionCode
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:3:5-28
-		INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:6:5-67
-MERGED from [:react-native-firebase] C:\Development\react-native-firebase-starter\node_modules\react-native-firebase\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
-MERGED from [:react-native-firebase] C:\Development\react-native-firebase-starter\node_modules\react-native-firebase\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [:react-native-firebase] C:\Development\TestCar\node_modules\react-native-firebase\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] C:\Development\TestCar\node_modules\react-native-firebase\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-perf:15.1.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-perf-15.1.0.aar\f2722b19819ba8aa81f747371ffc260e\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-perf:15.1.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-perf-15.1.0.aar\f2722b19819ba8aa81f747371ffc260e\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-appinvite:15.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-15.0.2.aar\c925f040e66e985107e38f7496310f2f\AndroidManifest.xml:22:5-67
@@ -116,15 +116,15 @@ MERGED from [com.crashlytics.sdk.android:answers:1.4.1] G:\Users\Jeff\.gradle\ca
 MERGED from [io.fabric.sdk.android:fabric:1.4.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\dc773e093af44608cf03b852d9c0fa9c\AndroidManifest.xml:29:5-67
 MERGED from [io.fabric.sdk.android:fabric:1.4.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\dc773e093af44608cf03b852d9c0fa9c\AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:7:5-77
-MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\d29bcb61b3be796392508e129e4d775a\AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\d29bcb61b3be796392508e129e4d775a\AndroidManifest.xml:11:5-78
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:7:5-77
+MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\46452d2f26b10e4a1ed963b78668606c\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\46452d2f26b10e4a1ed963b78668606c\AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:7:22-75
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:7:22-75
 application
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:9:5-36:19
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:9:5-36:19
 MERGED from [com.google.firebase:firebase-messaging:15.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-messaging-15.0.2.aar\40d32a6578452608b85d1264477ec8b5\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-messaging:15.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-messaging-15.0.2.aar\40d32a6578452608b85d1264477ec8b5\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-core:15.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-core-15.0.2.aar\f641df5809f098bee2ccacb50ecd4b8a\AndroidManifest.xml:7:5-20
@@ -163,8 +163,8 @@ MERGED from [com.google.android.gms:play-services-base:15.0.1] G:\Users\Jeff\.gr
 MERGED from [com.google.android.gms:play-services-base:15.0.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\d1721a50b5b8a4ba378bc82bf153838b\AndroidManifest.xml:22:5-27:19
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\4409c5dc21adbfe4aca34838bbf133c8\AndroidManifest.xml:11:5-17:19
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\4409c5dc21adbfe4aca34838bbf133c8\AndroidManifest.xml:11:5-17:19
-MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\d29bcb61b3be796392508e129e4d775a\AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\d29bcb61b3be796392508e129e4d775a\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\46452d2f26b10e4a1ed963b78668606c\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\46452d2f26b10e4a1ed963b78668606c\AndroidManifest.xml:13:5-20
 MERGED from [com.google.firebase:firebase-common:15.0.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-common-15.0.1.aar\94e1c63f6b0a630c6ad20c5d8c936eda\AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-common:15.0.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-common-15.0.1.aar\94e1c63f6b0a630c6ad20c5d8c936eda\AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-15.0.0.aar\750790e698735f5c49ada56e49c78a90\AndroidManifest.xml:22:5-23:19
@@ -204,67 +204,67 @@ MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] G:\Us
 MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\9fc769833a2e544af0301385da62b30d\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\9fc769833a2e544af0301385da62b30d\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:12:7-39
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:12:7-39
 	android:icon
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:13:7-41
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:13:7-41
 	android:allowBackup
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:11:7-33
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:11:7-33
 	android:theme
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:14:7-38
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:14:7-38
 	android:name
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:10:7-38
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:10:7-38
 activity#com.unisul.testcar.MainActivity
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:15:7-24:18
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:15:7-24:18
 	android:label
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:17:9-41
 	android:windowSoftInputMode
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:19:9-51
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:19:9-51
 	android:configChanges
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:18:9-79
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:18:9-79
 	android:name
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:16:9-37
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:16:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:20:9-23:25
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:20:9-23:25
 action#android.intent.action.MAIN
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:21:13-65
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:21:13-65
 	android:name
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:21:21-62
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:21:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:22:13-73
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:22:13-73
 	android:name
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:22:23-70
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:22:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:25:7-84
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:25:7-84
 	android:name
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:25:17-81
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:25:17-81
 service#io.invertase.firebase.messaging.RNFirebaseMessagingService
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:26:7-30:17
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:26:7-30:17
 	android:name
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:26:16-89
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:26:16-89
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:27:9-29:25
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:27:9-29:25
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:28:11-72
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:28:11-72
 	android:name
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:28:19-69
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:28:19-69
 service#io.invertase.firebase.messaging.RNFirebaseInstanceIdService
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:31:7-35:17
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:31:7-35:17
 	android:name
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:31:16-90
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:31:16-90
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:32:9-34:25
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:32:9-34:25
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:33:11-74
+ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:33:11-74
 	android:name
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:33:19-71
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:33:19-71
 uses-sdk
-INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:multidex:1.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\2c8094a8c787f51237733b95cf7e108f\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\2c8094a8c787f51237733b95cf7e108f\AndroidManifest.xml:20:5-43
-MERGED from [:react-native-firebase] C:\Development\react-native-firebase-starter\node_modules\react-native-firebase\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase] C:\Development\react-native-firebase-starter\node_modules\react-native-firebase\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] C:\Development\TestCar\node_modules\react-native-firebase\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] C:\Development\TestCar\node_modules\react-native-firebase\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:16.0.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-firestore-16.0.0.aar\6c17852184e1ce8c71ba1bf8da5bf234\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-firestore:16.0.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-firestore-16.0.0.aar\6c17852184e1ce8c71ba1bf8da5bf234\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-messaging:15.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-messaging-15.0.2.aar\40d32a6578452608b85d1264477ec8b5\AndroidManifest.xml:20:5-44
@@ -315,8 +315,8 @@ MERGED from [com.google.android.gms:play-services-base:15.0.1] G:\Users\Jeff\.gr
 MERGED from [com.google.android.gms:play-services-base:15.0.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\d1721a50b5b8a4ba378bc82bf153838b\AndroidManifest.xml:20:5-44
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\4409c5dc21adbfe4aca34838bbf133c8\AndroidManifest.xml:7:5-43
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\4409c5dc21adbfe4aca34838bbf133c8\AndroidManifest.xml:7:5-43
-MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\d29bcb61b3be796392508e129e4d775a\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\d29bcb61b3be796392508e129e4d775a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\46452d2f26b10e4a1ed963b78668606c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\46452d2f26b10e4a1ed963b78668606c\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\2bbf04c45a5148ac2e8e56710bf0cd65\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\2bbf04c45a5148ac2e8e56710bf0cd65\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads:15.0.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\7e9e092d37bb5ce802a22f1f917a871f\AndroidManifest.xml:21:5-23:62
@@ -391,18 +391,18 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] G:\Users\Jeff\.gradle
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\129ee70f5f03386c52fc32b3b17cd673\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\8d6d7e4292e22af0f845a16eaa4ede10\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\8d6d7e4292e22af0f845a16eaa4ede10\AndroidManifest.xml:5:5-7:41
-INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:15.0.1] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\7e9e092d37bb5ce802a22f1f917a871f\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:15.0.2] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\firebase-messaging-15.0.2.aar\40d32a6578452608b85d1264477ec8b5\AndroidManifest.xml:28:9-34:19
 	android:exported
@@ -672,8 +672,8 @@ MERGED from [com.android.support:support-media-compat:26.1.0] G:\Users\Jeff\.gra
 	android:name
 		ADDED from [com.android.support:customtabs:26.1.0] G:\Users\Jeff\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\14d08403ec27411cba55c9d88ff101c7\AndroidManifest.xml:24:13-51
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:1:1-38:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:1:1-38:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:1:1-38:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:1:1-38:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Development\react-native-firebase-starter\android\app\src\main\AndroidManifest.xml:1:1-38:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Development\TestCar\android\app\src\main\AndroidManifest.xml:1:1-38:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

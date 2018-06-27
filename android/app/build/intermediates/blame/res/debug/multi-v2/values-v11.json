@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Development\\react-native-firebase-starter\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "C:\\Development\\TestCar\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
                     "source": "G:\\Users\\Jeff\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-15.0.2.aar\\c925f040e66e985107e38f7496310f2f\\res\\values-v11\\values.xml",
