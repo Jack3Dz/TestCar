@@ -69,10 +69,13 @@ const options = {
   stylesheet: formStyles,
 };
 
+
+
 export default class FormCarro extends React.Component {
   handleSubmit = () => {
     const value = this._form.getValue();
     console.log('value: ', value);
+    
 
     firebase.database().ref('list/11').set({
       nome: value.nome,
@@ -89,8 +92,11 @@ export default class FormCarro extends React.Component {
     // clear content from all textbox
     this.setState({ value: null });
   }
+
+  
   
   render() {
+    const {goBack} = this.props.navigation;
     return (
       <View style={styles.container}>
         <Form 
@@ -101,6 +107,11 @@ export default class FormCarro extends React.Component {
         <Button
           title="Cadastrar Veículo"
           onPress={this.handleSubmit}
+        />
+        
+        <Button
+          title="Voltar"
+          onPress={() => this.props.navigation.navigate("Main")}
         />
       </View>
     );
