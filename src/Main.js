@@ -50,7 +50,7 @@ export default class Main extends React.Component {
           enableEmptySections={true}
           renderRow={this._renderItem.bind(this)}
           style={styles.listView} 
-          onPress={() => this.setState.DataSource.cloneWithRows(this.items)}
+          
         />
         {/* <TextInput
           value={this.state.newTask}

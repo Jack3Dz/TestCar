@@ -100,21 +100,27 @@ export default class FormCarro extends React.Component {
   render() {
 
     return (
-      <View style={styles.container}>
+      <View style={styles.container} >
         <Form 
           ref={c => this._form = c}
           type={Veiculo} 
           options={options}
         />
-        <Button
-          title="Cadastrar Veículo"
-          onPress={this.handleSubmit}
-        />
+        <View style={{padding:10}}>
+          <Button
+            title="Cadastrar Veículo"
+            onPress={this.handleSubmit}
+          />
+        </View>
+
         
-        <Button
-          title="Voltar"
-          onPress={() => this.props.navigation.navigate("Main")}
-        />
+        <View style={{padding:10}}>
+          <Button  
+            title="Voltar"
+            onPress={() => this.props.navigation.navigate("Main")}
+          />
+        </View>
+        
       </View>
     );
   }
@@ -126,5 +132,5 @@ const styles = StyleSheet.create({
     marginTop: 50,
     padding: 20,
     backgroundColor: '#ffffff',
-  },
+  }
 });

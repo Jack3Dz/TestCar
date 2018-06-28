@@ -7,7 +7,6 @@ import {
   TouchableHighlight,
   Image
 } from 'react-native';
-import { Icon } from 'react-native-elements';
 import styles from '../styles.js';
 
 class ListItem extends Component {
