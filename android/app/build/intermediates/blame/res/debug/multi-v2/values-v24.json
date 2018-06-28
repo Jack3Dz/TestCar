@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\gabriel.gomes2\\Desktop\\Git\\TestCar\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\TestCar\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\gabriel.gomes2\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\670eb12656889f31dc1e6140b24df8eb\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Jefferson\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\19fcad0409e553347637650a74c4096d\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\gabriel.gomes2\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\bab1360ae55d2d613fc184e2002a57f8\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Jefferson\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\3d98ad9b7dd73bd899c7c4d0ea8ef3fe\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

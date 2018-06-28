@@ -53,17 +53,17 @@ const options = {
     haveABS: {
       auto: 'none',
       placeholder: 'Possui ABS',
-      label: 'Possúi ABS: ',
+      label: 'Possui ABS: ',
     },
     haveAIR: {
       auto: 'none',
       placeholder: 'Possui Ar Condicionado',
-      label: 'Possúi Ar Condicionado: ',
+      label: 'Possui Ar Condicionado: ',
     },
     haveMP3: {
       auto: 'none',
       placeholder: 'Possui MP3',
-      label: 'Possúi MP3: ',
+      label: 'Possui MP3: ',
     },
   },
   stylesheet: formStyles,
@@ -79,7 +79,7 @@ export default class FormCarro extends React.Component {
     console.log('value: ', value);
     
 
-    firebase.database().ref('/list/' + veiculoOldKey).orderByKey().set({
+    firebase.database().ref('/list/' + veiculoOldKey).set({
       nome: value.nome,
       preco: value.preco,
       haveABS: value.haveABS,
@@ -120,7 +120,6 @@ export default class FormCarro extends React.Component {
             onPress={() => this.props.navigation.navigate("Main")}
           />
         </View>
-        
       </View>
     );
   }
