@@ -72,12 +72,14 @@ const options = {
 
 
 export default class FormCarro extends React.Component {
+  
   handleSubmit = () => {
     const value = this._form.getValue();
+    var veiculoOldKey = firebase.database().ref().child('list').push().key;
     console.log('value: ', value);
     
 
-    firebase.database().ref('list/11').set({
+    firebase.database().ref('/list/' + veiculoOldKey).orderByKey().set({
       nome: value.nome,
       preco: value.preco,
       haveABS: value.haveABS,

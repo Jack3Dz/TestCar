@@ -47,7 +47,9 @@ export default class Main extends React.Component {
           dataSource={this.state.dataSource}
           enableEmptySections={true}
           renderRow={this._renderItem.bind(this)}
-          style={styles.listView} />
+          style={styles.listView} 
+          onPress={() => this.props.navigation.navigate('FormCarro')}
+        />
         {/* <TextInput
           value={this.state.newTask}
           style={styles.textEdit}
@@ -67,7 +69,8 @@ export default class Main extends React.Component {
     // a method for building each list item
     const onTaskCompletion = () => {
       // removes the item from the list
-      this.tasksRef.child(task._key).remove()
+      // this.tasksRef.child(task._key).remove()
+      
     };
     return (
       <ListItem task={task} onTaskCompletion={onTaskCompletion} />
