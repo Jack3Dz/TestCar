@@ -98,7 +98,7 @@ export default class FormCarro extends React.Component {
   
   
   render() {
-    const {goBack} = this.props.navigation;
+
     return (
       <View style={styles.container}>
         <Form 

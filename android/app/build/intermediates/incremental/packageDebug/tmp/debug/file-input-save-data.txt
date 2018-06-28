@@ -1,9 +1,5 @@
 #Internal package file, do not edit.
-<<<<<<< HEAD
-#Wed Jun 27 21:22:05 BRT 2018
-=======
-#Wed Jun 27 21:27:05 GMT-03:00 2018
->>>>>>> d76f79f914af649da48ebeadcce51b21b2fd0b13
+#Wed Jun 27 22:12:50 BRT 2018
 17.baseType=DIRECTORY
 4.path=lib/x86/libjsc.so
 25.base=C\:\\Users\\gabriel.gomes2\\Desktop\\Git\\TestCar\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0

@@ -34,6 +34,8 @@ export default class Main extends React.Component {
     this.listenForTasks(this.tasksRef);
   }
 
+
+
   render() {
     return (
       <View style={styles.container}>
@@ -48,7 +50,7 @@ export default class Main extends React.Component {
           enableEmptySections={true}
           renderRow={this._renderItem.bind(this)}
           style={styles.listView} 
-          onPress={() => this.props.navigation.navigate('FormCarro')}
+          onPress={() => this.setState.DataSource.cloneWithRows(this.items)}
         />
         {/* <TextInput
           value={this.state.newTask}
@@ -69,7 +71,7 @@ export default class Main extends React.Component {
     // a method for building each list item
     const onTaskCompletion = () => {
       // removes the item from the list
-      // this.tasksRef.child(task._key).remove()
+       this.tasksRef.child(task._key).remove()
       
     };
     return (
